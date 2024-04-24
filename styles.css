@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #050;
+    width: 15vw;
+    float: right;
+}
+
+nav b {
+    
+    color: #afa;
+    padding: 0.30em 0.5em;
+    text-decoration: none;
+    transition: background-color 0.5s;
+  }
+
+  nav b:hover{
+    background-color:#272;
+   }
+  header, main{
+    overflow:auto;
+    padding: auto;
+    
+  }
+  header{
+    background-color: #0a0;
+    padding: 0 0.5em;
+    
+  }
+  nav, main{
+    box-sizing: border-box;
+    }
+  main{
+    background-color: #030;
+    color: #afa;
+     
+  }
+  #target {
+    background-color: white;
+    color: black;
+    border: 5xp colid black;
+    padding: 0 0.5em;
+
+  }
